@@ -12,15 +12,11 @@ public class GolpeEnemigo : MonoBehaviour
     {
         golpe.SetActive(false);
     }
-
-        // Update is called once per frame
-    void Update()
+    
+    public void Atacar()
     {
-        if (Input.GetKey(KeyCode.Space))
-            golpeActivo = true;
-        else
-            golpeActivo = false;
-
+        golpeActivo = true;
         golpe.SetActive(golpeActivo);
+        golpeActivo = false;
     }
 }

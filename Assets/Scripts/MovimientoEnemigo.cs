@@ -19,10 +19,9 @@ public class MovimientoEnemigo : MonoBehaviour
     private float distAlObjetivoY;
 
     private bool viendoDerecha = false;
-    
+    private bool puedeAtacar = true;
 
-
-    public GameObject golpe;
+    public float tiempoAtaque;
 
     Rigidbody2D rb;
     // Start is called before the first frame update
@@ -80,14 +79,24 @@ public class MovimientoEnemigo : MonoBehaviour
         //Esta a distancia de ataque
         if ((distAlObjetivoY <= radioAtaqueY) && (distAlObjetivoX <= radioAtaqueX))
         {
-            //ataca
-            
-            Debug.Log("Atacando");
+            //Atacar
+            if (puedeAtacar)
+            {
+                gameObject.GetComponent<GolpeEnemigo>().Atacar();
+                StartCoroutine("pausaAtaque");
+            }
         }
-
+        Debug.Log(puedeAtacar);
         rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad);
     }
 
+    IEnumerator pausaAtaque()
+    {
+        puedeAtacar = false;
+        yield return new WaitForSeconds(tiempoAtaque);
+        puedeAtacar = true;
+        Debug.Log(puedeAtacar);
+    }
     private void girar()
     {
         viendoDerecha = !viendoDerecha;
