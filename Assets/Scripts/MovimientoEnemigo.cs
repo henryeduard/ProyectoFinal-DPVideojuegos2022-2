@@ -21,8 +21,6 @@ public class MovimientoEnemigo : MonoBehaviour
     private bool viendoDerecha = false;
     private bool puedeAtacar = true;
 
-    public float tiempoAtaque;
-
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -83,20 +81,12 @@ public class MovimientoEnemigo : MonoBehaviour
             if (puedeAtacar)
             {
                 gameObject.GetComponent<GolpeEnemigo>().Atacar();
-                StartCoroutine("pausaAtaque");
+                
             }
-        }
-        Debug.Log(puedeAtacar);
+        }        
         rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad);
     }
 
-    IEnumerator pausaAtaque()
-    {
-        puedeAtacar = false;
-        yield return new WaitForSeconds(tiempoAtaque);
-        puedeAtacar = true;
-        Debug.Log(puedeAtacar);
-    }
     private void girar()
     {
         viendoDerecha = !viendoDerecha;
