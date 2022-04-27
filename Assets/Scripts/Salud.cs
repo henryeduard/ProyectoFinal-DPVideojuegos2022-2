@@ -21,6 +21,6 @@ public class Salud : MonoBehaviour
 
     // Disminuye la vida.
     public void BajarVida(int daño) {
-        vida--;
+        vida = vida - daño;
     }
 }

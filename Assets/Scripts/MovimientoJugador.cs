@@ -31,6 +31,7 @@ public class MovimientoJugador : MonoBehaviour
         if (Input.GetKey(KeyCode.A)) 
         {
             rb.AddForce(Vector3.left * speed);
+            
             /*animador.SetBool("izquierda",true);
             animador.SetBool("derecha",false);
             animador.SetBool("arriba",false);
@@ -39,6 +40,7 @@ public class MovimientoJugador : MonoBehaviour
         } else if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(Vector3.right * speed);
+            
             /*animador.SetBool("derecha",true);
             animador.SetBool("izquierda",false);
             animador.SetBool("arriba",false);
@@ -47,6 +49,7 @@ public class MovimientoJugador : MonoBehaviour
         } else if (Input.GetKey(KeyCode.W))
         {
             rb.AddForce(Vector3.up * speed);
+
             /*animador.SetBool("arriba",true);
             animador.SetBool("izquierda",false);
             animador.SetBool("derecha",false);
@@ -55,11 +58,17 @@ public class MovimientoJugador : MonoBehaviour
         }else if (Input.GetKey(KeyCode.S))
         {
             rb.AddForce(Vector3.down * speed);
+
             /*animador.SetBool("abajo",true);
             animador.SetBool("izquierda",false);
             animador.SetBool("derecha",false);
             animador.SetBool("arriba",false);*/
 
+        } else {
+            rb.AddForce(Vector3.left * 0);
+            rb.AddForce(Vector3.right * 0);
+            rb.AddForce(Vector3.up * 0);
+            rb.AddForce(Vector3.down * 0);
         }
     }
 }
