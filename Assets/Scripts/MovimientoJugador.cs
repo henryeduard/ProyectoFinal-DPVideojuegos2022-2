@@ -28,36 +28,41 @@ public class MovimientoJugador : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (Input.GetKey(KeyCode.A)) 
+        if (Input.GetKey(KeyCode.A))    // Izquierda
         {
-            rb.AddForce(Vector3.left * speed);
+            //rb.AddForce(Vector3.left * speed);
+            rb.velocity = new Vector2(-speed, 0.0f);
+
             
             /*animador.SetBool("izquierda",true);
             animador.SetBool("derecha",false);
             animador.SetBool("arriba",false);
             animador.SetBool("abajo",false);*/
 
-        } else if (Input.GetKey(KeyCode.D))
+        } else if (Input.GetKey(KeyCode.D))     // Derecha
         {
-            rb.AddForce(Vector3.right * speed);
+            //rb.AddForce(Vector3.right * speed);
+            rb.velocity = new Vector2(speed, 0.0f);
             
             /*animador.SetBool("derecha",true);
             animador.SetBool("izquierda",false);
             animador.SetBool("arriba",false);
             animador.SetBool("abajo",false);*/
 
-        } else if (Input.GetKey(KeyCode.W))
+        } else if (Input.GetKey(KeyCode.W))     // Arriba
         {
-            rb.AddForce(Vector3.up * speed);
+            //rb.AddForce(Vector3.up * speed);
+            rb.velocity = new Vector2(0.0f, speed);
 
             /*animador.SetBool("arriba",true);
             animador.SetBool("izquierda",false);
             animador.SetBool("derecha",false);
             animador.SetBool("abajo",false);*/
 
-        }else if (Input.GetKey(KeyCode.S))
+        }else if (Input.GetKey(KeyCode.S))      // Abajo
         {
-            rb.AddForce(Vector3.down * speed);
+            //rb.AddForce(Vector3.down * speed);
+            rb.velocity = new Vector2(0.0f, -speed);
 
             /*animador.SetBool("abajo",true);
             animador.SetBool("izquierda",false);
@@ -65,10 +70,11 @@ public class MovimientoJugador : MonoBehaviour
             animador.SetBool("arriba",false);*/
 
         } else {
-            rb.AddForce(Vector3.left * 0);
+            /*rb.AddForce(Vector3.left * 0);
             rb.AddForce(Vector3.right * 0);
             rb.AddForce(Vector3.up * 0);
-            rb.AddForce(Vector3.down * 0);
+            rb.AddForce(Vector3.down * 0);*/
+            rb.velocity = new Vector2(0.0f, 0.0f);
         }
     }
 }
