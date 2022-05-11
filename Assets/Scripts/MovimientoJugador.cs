@@ -12,24 +12,24 @@ public class MovimientoJugador : MonoBehaviour
     private Rigidbody2D rb;
 
     // Animator del jugador
-    [SerializeField]
+    //[SerializeField]
     private Animator animador;
 
     // SpriteRenderer del jugador
-    [SerializeField]
+    //[SerializeField]
     private SpriteRenderer sprender;
 
     // Zona de golpe del jugador
     [SerializeField]
-    private GameObject golpeador;
+    private Transform golpeador;
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        //animador = gameObject.GetComponent<Animator>();
-        //sprender = gameObject.GetComponent<SpriteRenderer>();
+        animador = gameObject.GetComponent<Animator>();
+        sprender = gameObject.GetComponent<SpriteRenderer>();
 
     }
 
@@ -45,7 +45,10 @@ public class MovimientoJugador : MonoBehaviour
 
             animador.SetBool("caminando", true);
             sprender.flipX = true;
-            golpeador.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+
+            //golpeador.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+            golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+            //golpeador.transform.Rotate(0, 180, 0);
 
         } else if (Input.GetKey(KeyCode.D))     // Derecha
         {
@@ -54,7 +57,10 @@ public class MovimientoJugador : MonoBehaviour
             
             animador.SetBool("caminando", true);
             sprender.flipX = false;
-            golpeador.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
+
+            //golpeador.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
+            golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
+            //golpeador.transform.Rotate(0, 180, 0);
 
         } else if (Input.GetKey(KeyCode.W))     // Arriba
         {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class AtaqueJugador : MonoBehaviour
 {
     // Animator del jugador
-    [SerializeField]
+    //[SerializeField]
     private Animator animador;
 
     // Objeto que será el golpe
@@ -27,7 +27,7 @@ public class AtaqueJugador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //animador = gameObject.GetComponent<Animator>();
+        animador = gameObject.GetComponent<Animator>();
 
         golpe.SetActive(false);
     }
