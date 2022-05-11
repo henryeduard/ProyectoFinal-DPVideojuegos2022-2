@@ -12,7 +12,16 @@ public class MovimientoJugador : MonoBehaviour
     private Rigidbody2D rb;
 
     // Animator del jugador
-    //private Animator animador;
+    [SerializeField]
+    private Animator animador;
+
+    // SpriteRenderer del jugador
+    [SerializeField]
+    private SpriteRenderer sprender;
+
+    // Zona de golpe del jugador
+    [SerializeField]
+    private GameObject golpeador;
 
 
     // Start is called before the first frame update
@@ -20,6 +29,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         //animador = gameObject.GetComponent<Animator>();
+        //sprender = gameObject.GetComponent<SpriteRenderer>();
 
     }
 
@@ -33,41 +43,32 @@ public class MovimientoJugador : MonoBehaviour
             //rb.AddForce(Vector3.left * speed);
             rb.velocity = new Vector2(-speed, 0.0f);
 
-            
-            /*animador.SetBool("izquierda",true);
-            animador.SetBool("derecha",false);
-            animador.SetBool("arriba",false);
-            animador.SetBool("abajo",false);*/
+            animador.SetBool("caminando", true);
+            sprender.flipX = true;
+            golpeador.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
 
         } else if (Input.GetKey(KeyCode.D))     // Derecha
         {
             //rb.AddForce(Vector3.right * speed);
             rb.velocity = new Vector2(speed, 0.0f);
             
-            /*animador.SetBool("derecha",true);
-            animador.SetBool("izquierda",false);
-            animador.SetBool("arriba",false);
-            animador.SetBool("abajo",false);*/
+            animador.SetBool("caminando", true);
+            sprender.flipX = false;
+            golpeador.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
 
         } else if (Input.GetKey(KeyCode.W))     // Arriba
         {
             //rb.AddForce(Vector3.up * speed);
             rb.velocity = new Vector2(0.0f, speed);
 
-            /*animador.SetBool("arriba",true);
-            animador.SetBool("izquierda",false);
-            animador.SetBool("derecha",false);
-            animador.SetBool("abajo",false);*/
+            animador.SetBool("caminando", true);
 
         }else if (Input.GetKey(KeyCode.S))      // Abajo
         {
             //rb.AddForce(Vector3.down * speed);
             rb.velocity = new Vector2(0.0f, -speed);
 
-            /*animador.SetBool("abajo",true);
-            animador.SetBool("izquierda",false);
-            animador.SetBool("derecha",false);
-            animador.SetBool("arriba",false);*/
+            animador.SetBool("caminando", true);
 
         } else {
             /*rb.AddForce(Vector3.left * 0);
@@ -75,6 +76,8 @@ public class MovimientoJugador : MonoBehaviour
             rb.AddForce(Vector3.up * 0);
             rb.AddForce(Vector3.down * 0);*/
             rb.velocity = new Vector2(0.0f, 0.0f);
+
+            animador.SetBool("caminando", false);
         }
     }
 }

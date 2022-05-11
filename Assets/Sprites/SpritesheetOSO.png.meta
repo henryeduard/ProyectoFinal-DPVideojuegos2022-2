@@ -1,7 +1,103 @@
 fileFormatVersion: 2
 guid: 5cc3a3cabb49dd542adc8d7d81075020
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6577660876190932960
+    second: SpritesheetOSO_0
+  - first:
+      213: 2649169798187973090
+    second: SpritesheetOSO_1
+  - first:
+      213: -4031360227541982872
+    second: SpritesheetOSO_2
+  - first:
+      213: 151853475855186810
+    second: SpritesheetOSO_3
+  - first:
+      213: -9187873839039471237
+    second: SpritesheetOSO_4
+  - first:
+      213: -6492647581212363516
+    second: SpritesheetOSO_5
+  - first:
+      213: 3944270232507780907
+    second: SpritesheetOSO_6
+  - first:
+      213: 3266498122169318917
+    second: SpritesheetOSO_7
+  - first:
+      213: 263919230136888480
+    second: SpritesheetOSO_8
+  - first:
+      213: 4893267975359122758
+    second: SpritesheetOSO_9
+  - first:
+      213: -2740825885525919328
+    second: SpritesheetOSO_10
+  - first:
+      213: 4664226627923017177
+    second: SpritesheetOSO_11
+  - first:
+      213: 4110388931240570683
+    second: SpritesheetOSO_12
+  - first:
+      213: 2057739056414787095
+    second: SpritesheetOSO_13
+  - first:
+      213: -2973955820710505510
+    second: SpritesheetOSO_14
+  - first:
+      213: 2339712933412961103
+    second: SpritesheetOSO_15
+  - first:
+      213: 8607177583362454270
+    second: SpritesheetOSO_16
+  - first:
+      213: -339594585184322550
+    second: SpritesheetOSO_17
+  - first:
+      213: 3100163537062045738
+    second: SpritesheetOSO_18
+  - first:
+      213: -8000433269171141261
+    second: SpritesheetOSO_19
+  - first:
+      213: -1607508182586932314
+    second: SpritesheetOSO_20
+  - first:
+      213: -4350437483164170604
+    second: SpritesheetOSO_21
+  - first:
+      213: -3727575156078655878
+    second: SpritesheetOSO_22
+  - first:
+      213: -6936312387147986625
+    second: SpritesheetOSO_23
+  - first:
+      213: 7122729973281155402
+    second: SpritesheetOSO_24
+  - first:
+      213: 1299205885727393676
+    second: SpritesheetOSO_25
+  - first:
+      213: -5104702755334058917
+    second: SpritesheetOSO_26
+  - first:
+      213: 2298839192761693585
+    second: SpritesheetOSO_27
+  - first:
+      213: -4182385411713291851
+    second: SpritesheetOSO_28
+  - first:
+      213: 3086266243961537262
+    second: SpritesheetOSO_29
+  - first:
+      213: -7614788706855603203
+    second: SpritesheetOSO_30
+  - first:
+      213: 1787154601490569838
+    second: SpritesheetOSO_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +128,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +137,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +171,705 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpritesheetOSO_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 900
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef585a87bb884b50800000000000000
+      internalID: 6577660876190932960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 850
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9ffa245edb3c420800000000000000
+      internalID: 2649169798187973090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 850
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861e8bb6b3bbd08c0800000000000000
+      internalID: -4031360227541982872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 722
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bb1468eed7b1200800000000000000
+      internalID: 151853475855186810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 722
+        width: 71
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a2fe3c6d1e7080800000000000000
+      internalID: -9187873839039471237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 722
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b906ac6b75e5a0800000000000000
+      internalID: -6492647581212363516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 722
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f06caf0ecdcb630800000000000000
+      internalID: 3944270232507780907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 723
+        width: 75
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ef1674cbee45d20800000000000000
+      internalID: 3266498122169318917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_8
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 722
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac24b93421a9a300800000000000000
+      internalID: 263919230136888480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 592
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d43164c4168e340800000000000000
+      internalID: 4893267975359122758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 592
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9380ee061a6f9d0800000000000000
+      internalID: -2740825885525919328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 550
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddf44de769aab040800000000000000
+      internalID: 4664226627923017177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 434
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3faa4784f80b0930800000000000000
+      internalID: 4110388931240570683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 432
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7160d0af4ce8e8c10800000000000000
+      internalID: 2057739056414787095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 434
+        width: 94
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad358d010f26ab6d0800000000000000
+      internalID: -2973955820710505510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 432
+        width: 94
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b77704484587020800000000000000
+      internalID: 2339712933412961103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 432
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23607c866d27770800000000000000
+      internalID: 8607177583362454270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_17
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 431
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c31762684894bf0800000000000000
+      internalID: -339594585184322550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 317
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28a334cf4ef50b20800000000000000
+      internalID: 3100163537062045738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 312
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37546dd6450c8f090800000000000000
+      internalID: -8000433269171141261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 312
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a34f5b23dbf0b9e0800000000000000
+      internalID: -1607508182586932314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 270
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496847e982420a3c0800000000000000
+      internalID: -4350437483164170604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 270
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a764c54252ef44cc0800000000000000
+      internalID: -3727575156078655878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 270
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3907e052a44dbf90800000000000000
+      internalID: -6936312387147986625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 141
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4963704c2509d260800000000000000
+      internalID: 7122729973281155402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 139
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c0ec9ed4b70210800000000000000
+      internalID: 1299205885727393676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_26
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 139
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c0b50d3e37829b0800000000000000
+      internalID: -5104702755334058917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 139
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1957e48e01e17ef10800000000000000
+      internalID: 2298839192761693585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_28
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 139
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9ad0590ae25f5c0800000000000000
+      internalID: -4182385411713291851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_29
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 139
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee24b911cce94da20800000000000000
+      internalID: 3086266243961537262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df337381406d25690800000000000000
+      internalID: -7614788706855603203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetOSO_31
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6adc8c24af3dc810800000000000000
+      internalID: 1787154601490569838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

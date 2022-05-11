@@ -5,7 +5,8 @@ using UnityEngine;
 public class AtaqueJugador : MonoBehaviour
 {
     // Animator del jugador
-    //private Animator animador;
+    [SerializeField]
+    private Animator animador;
 
     // Objeto que será el golpe
     [SerializeField]
@@ -44,7 +45,7 @@ public class AtaqueJugador : MonoBehaviour
     // Método que activa el golpe para que el jugador ataque
     private void Atacar()
     {
-        //animador.SetTrigger("disparando");
+        animador.SetTrigger("atacando");
 
         StartCoroutine("duracionAtaque");
         StartCoroutine("tiempoEntreAtaques");
