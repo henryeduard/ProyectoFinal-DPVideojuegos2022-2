@@ -1,7 +1,160 @@
 fileFormatVersion: 2
 guid: e0aefb2fbe9d5604d9a4955bc81b97d3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3859674279217817410
+    second: SpritesheetAJOLOTE_0
+  - first:
+      213: 5293082125461021276
+    second: SpritesheetAJOLOTE_1
+  - first:
+      213: 7301152125349120455
+    second: SpritesheetAJOLOTE_2
+  - first:
+      213: 958732675056610825
+    second: SpritesheetAJOLOTE_3
+  - first:
+      213: -3987004073520742479
+    second: SpritesheetAJOLOTE_4
+  - first:
+      213: 7383337431615363916
+    second: SpritesheetAJOLOTE_5
+  - first:
+      213: 4545735572438993457
+    second: SpritesheetAJOLOTE_6
+  - first:
+      213: 6710939555406729565
+    second: SpritesheetAJOLOTE_7
+  - first:
+      213: -8786187615241096844
+    second: SpritesheetAJOLOTE_8
+  - first:
+      213: -7718203634241166129
+    second: SpritesheetAJOLOTE_9
+  - first:
+      213: 870385875086426080
+    second: SpritesheetAJOLOTE_10
+  - first:
+      213: 8681497414905421617
+    second: SpritesheetAJOLOTE_11
+  - first:
+      213: 3511924695311531255
+    second: SpritesheetAJOLOTE_12
+  - first:
+      213: -4628871110407736385
+    second: SpritesheetAJOLOTE_13
+  - first:
+      213: 2570717468211839674
+    second: SpritesheetAJOLOTE_14
+  - first:
+      213: 2430580221526027313
+    second: SpritesheetAJOLOTE_15
+  - first:
+      213: -8365718389358014269
+    second: SpritesheetAJOLOTE_16
+  - first:
+      213: 3216573191501897646
+    second: SpritesheetAJOLOTE_17
+  - first:
+      213: 5263346543723802166
+    second: SpritesheetAJOLOTE_18
+  - first:
+      213: -4428224341944316033
+    second: SpritesheetAJOLOTE_19
+  - first:
+      213: 5041461710540460684
+    second: SpritesheetAJOLOTE_20
+  - first:
+      213: -802509177433546470
+    second: SpritesheetAJOLOTE_21
+  - first:
+      213: 3377754315521636374
+    second: SpritesheetAJOLOTE_22
+  - first:
+      213: 1218860173584177202
+    second: SpritesheetAJOLOTE_23
+  - first:
+      213: -3712344037557264084
+    second: SpritesheetAJOLOTE_24
+  - first:
+      213: 5712650025748561046
+    second: SpritesheetAJOLOTE_25
+  - first:
+      213: -4411777062827833826
+    second: SpritesheetAJOLOTE_26
+  - first:
+      213: 6383911850393139620
+    second: SpritesheetAJOLOTE_27
+  - first:
+      213: 4420978397541124864
+    second: SpritesheetAJOLOTE_28
+  - first:
+      213: 5514189221192172620
+    second: SpritesheetAJOLOTE_29
+  - first:
+      213: -787415493083701140
+    second: SpritesheetAJOLOTE_30
+  - first:
+      213: 2236482922645480438
+    second: SpritesheetAJOLOTE_31
+  - first:
+      213: 4380752587796814017
+    second: SpritesheetAJOLOTE_32
+  - first:
+      213: -4546944885010591180
+    second: SpritesheetAJOLOTE_33
+  - first:
+      213: 7502684585973172521
+    second: SpritesheetAJOLOTE_34
+  - first:
+      213: -6423571795232199482
+    second: SpritesheetAJOLOTE_35
+  - first:
+      213: 2962443703037556701
+    second: SpritesheetAJOLOTE_36
+  - first:
+      213: 2255646748327426807
+    second: SpritesheetAJOLOTE_37
+  - first:
+      213: 2986301971143128266
+    second: SpritesheetAJOLOTE_38
+  - first:
+      213: -2273603203423733908
+    second: SpritesheetAJOLOTE_39
+  - first:
+      213: 7069145532555244598
+    second: SpritesheetAJOLOTE_40
+  - first:
+      213: 7096036509748348570
+    second: SpritesheetAJOLOTE_41
+  - first:
+      213: -8617144528682717945
+    second: SpritesheetAJOLOTE_42
+  - first:
+      213: -1734021303199175548
+    second: SpritesheetAJOLOTE_43
+  - first:
+      213: -1759430692219136431
+    second: SpritesheetAJOLOTE_44
+  - first:
+      213: -4327227179770230690
+    second: SpritesheetAJOLOTE_45
+  - first:
+      213: -5624028466596438647
+    second: SpritesheetAJOLOTE_46
+  - first:
+      213: -1460849165481314987
+    second: SpritesheetAJOLOTE_47
+  - first:
+      213: -1069295644556432694
+    second: SpritesheetAJOLOTE_48
+  - first:
+      213: 2188692769992273297
+    second: SpritesheetAJOLOTE_49
+  - first:
+      213: 2528585695952890895
+    second: SpritesheetAJOLOTE_50
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +185,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +194,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +228,1104 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 897
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476d79be41509530800000000000000
+      internalID: 3859674279217817410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 840
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52e21f262ec47940800000000000000
+      internalID: 5293082125461021276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 840
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9c582cc27e25560800000000000000
+      internalID: 7301152125349120455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 721
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e2f43d94a1e4d00800000000000000
+      internalID: 958732675056610825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 721
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfb2cf4be05ba8c0800000000000000
+      internalID: -3987004073520742479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 721
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b57448642e67660800000000000000
+      internalID: 7383337431615363916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 721
+        width: 86
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a45163b62b51f30800000000000000
+      internalID: 4545735572438993457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 721
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51d22538fb022d50800000000000000
+      internalID: 6710939555406729565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 721
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4713e974ae0311680800000000000000
+      internalID: -8786187615241096844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 721
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc42decffae63e490800000000000000
+      internalID: -7718203634241166129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 611
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef3b06875b341c00800000000000000
+      internalID: 870385875086426080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 611
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fd8edf6efda7870800000000000000
+      internalID: 8681497414905421617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 611
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc37f547ecdcb030800000000000000
+      internalID: 3511924695311531255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_13
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 611
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb33419ff32f2cfb0800000000000000
+      internalID: -4628871110407736385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 611
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab288a6cae50da320800000000000000
+      internalID: 2570717468211839674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_15
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 611
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c262e65d72bb120800000000000000
+      internalID: 2430580221526027313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_16
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 611
+        width: 86
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0dc57c27ff6eb80800000000000000
+      internalID: -8365718389358014269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 501
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafd389864093ac20800000000000000
+      internalID: 3216573191501897646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 501
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eef6c8bc92b0940800000000000000
+      internalID: 5263346543723802166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 501
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fcba83c69cb82c0800000000000000
+      internalID: -4428224341944316033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 501
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c825f7507bed6f540800000000000000
+      internalID: 5041461710540460684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_21
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 501
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11251ea72aecd4f0800000000000000
+      internalID: -802509177433546470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 501
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b53367a130ee20800000000000000
+      internalID: 3377754315521636374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_23
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 501
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381b5dbed24ae010800000000000000
+      internalID: 1218860173584177202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 391
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c212c5544ca1b7cc0800000000000000
+      internalID: -3712344037557264084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 391
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c7ed67ee8674f40800000000000000
+      internalID: 5712650025748561046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_26
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 391
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e164eedc22836c2c0800000000000000
+      internalID: -4411777062827833826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_27
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 391
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9f6182106389850800000000000000
+      internalID: 6383911850393139620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 391
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4d11ed687a5d30800000000000000
+      internalID: 4420978397541124864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_29
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 391
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44827991e5568c40800000000000000
+      internalID: 5514189221192172620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 391
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c606b1ce7c98215f0800000000000000
+      internalID: -787415493083701140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 281
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3e2866e55990f10800000000000000
+      internalID: 2236482922645480438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 281
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c89084b44f8bcc30800000000000000
+      internalID: 4380752587796814017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 281
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4321aa3c7b106e0c0800000000000000
+      internalID: -4546944885010591180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_34
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 281
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929cab841e3ee1860800000000000000
+      internalID: 7502684585973172521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 240
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc67fb5c73ead6a0800000000000000
+      internalID: -6423571795232199482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 141
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd775aa2ad6bc1920800000000000000
+      internalID: 2962443703037556701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 141
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa32d444caad4f10800000000000000
+      internalID: 2255646748327426807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_38
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 141
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4f80612d9717920800000000000000
+      internalID: 2986301971143128266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_39
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 141
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67fcbbbee98270e0800000000000000
+      internalID: -2273603203423733908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_40
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 141
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634be7d6866aa1260800000000000000
+      internalID: 7069145532555244598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_41
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 141
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96c0c4fb9f2a7260800000000000000
+      internalID: 7096036509748348570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 90
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d6aade4b0c96880800000000000000
+      internalID: -8617144528682717945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 90
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c6adddfc48fe7e0800000000000000
+      internalID: -1734021303199175548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156db577b1f3597e0800000000000000
+      internalID: -1759430692219136431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_45
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58416f7ec992f3c0800000000000000
+      internalID: -4327227179770230690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_46
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d95d138ef63f1b0800000000000000
+      internalID: -5624028466596438647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_47
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5557f058c650abbe0800000000000000
+      internalID: -1460849165481314987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_48
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca6752d6491921f0800000000000000
+      internalID: -1069295644556432694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_49
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dead56a7ccf5e10800000000000000
+      internalID: 2188692769992273297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesheetAJOLOTE_50
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ce76f1b47571320800000000000000
+      internalID: 2528585695952890895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

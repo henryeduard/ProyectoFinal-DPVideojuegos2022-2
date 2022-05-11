@@ -5,7 +5,8 @@ using UnityEngine;
 public class DisparoAjolote : MonoBehaviour
 {
     // Animator del jugador
-    //private Animator animador;
+    [SerializeField]
+    private Animator animador;
 
     // El controlador para disparar
     [SerializeField]
@@ -34,7 +35,8 @@ public class DisparoAjolote : MonoBehaviour
     // Método que dispara instanciando una bala en nuestro disparador
     private void Disparar()
     {
+        animador.SetTrigger("disparando");
         Instantiate(bala, disparador.position, disparador.rotation);
-        //animador.SetTrigger("disparando");
+        
     }
 }

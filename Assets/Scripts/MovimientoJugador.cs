@@ -12,11 +12,11 @@ public class MovimientoJugador : MonoBehaviour
     private Rigidbody2D rb;
 
     // Animator del jugador
-    //[SerializeField]
+    [SerializeField]
     private Animator animador;
 
     // SpriteRenderer del jugador
-    //[SerializeField]
+    [SerializeField]
     private SpriteRenderer sprender;
 
     // Zona de golpe del jugador
@@ -28,8 +28,8 @@ public class MovimientoJugador : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        animador = gameObject.GetComponent<Animator>();
-        sprender = gameObject.GetComponent<SpriteRenderer>();
+        //animador = gameObject.GetComponent<Animator>();
+        //sprender = gameObject.GetComponent<SpriteRenderer>();
 
     }
 
