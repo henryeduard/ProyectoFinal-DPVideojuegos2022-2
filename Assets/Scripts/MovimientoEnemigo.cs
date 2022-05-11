@@ -22,6 +22,16 @@ public class MovimientoEnemigo : MonoBehaviour
     private bool puedeAtacar = true;
 
     Rigidbody2D rb;
+
+    // Animator del jugador
+    [SerializeField]
+    private Animator animador;
+
+    // SpriteRenderer del jugador
+    [SerializeField]
+    private SpriteRenderer sprender;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +39,7 @@ public class MovimientoEnemigo : MonoBehaviour
         distAlObjetivoX = Mathf.Abs(jugadores[0].transform.position.x - transform.position.x);
         distAlObjetivoY = Mathf.Abs(jugadores[0].transform.position.y - transform.position.y);
         rb = GetComponent<Rigidbody2D>();
+        sprender.flipX = true;
         
     }
 
@@ -45,10 +56,14 @@ public class MovimientoEnemigo : MonoBehaviour
         {
             if (jugadores[0].transform.position.x > transform.position.x)  direccionX = 1;
             if (jugadores[0].transform.position.x <= transform.position.x) direccionX = -1;
+
+            //animador.SetBool("caminando", true);
+            animador.SetBool("caminando", false);
         }
         else 
         {
             direccionX = 0;
+            animador.SetBool("caminando", false);
         }
 
 
@@ -57,20 +72,28 @@ public class MovimientoEnemigo : MonoBehaviour
             if (jugadores[0].transform.position.y > transform.position.y) direccionY = 1;
             if (jugadores[0].transform.position.y <= transform.position.y) direccionY = -1;
 
-            
+            //animador.SetBool("caminando", true);
+            animador.SetBool("caminando", false);
         }
         else 
         {
             direccionY = 0;
+            animador.SetBool("caminando", false);
         }
+
+        animador.SetBool("caminando", true);
 
         //Control de giro del enemigo
         if(direccionX > 0 && !viendoDerecha)
         {
             girar();
+            //sprender.flipX = false;
+
         }else if (direccionX < 0 && viendoDerecha)
         {
             girar();
+            //sprender.flipX = true;
+
         }
 
 
@@ -81,7 +104,8 @@ public class MovimientoEnemigo : MonoBehaviour
             if (puedeAtacar)
             {
                 gameObject.GetComponent<GolpeEnemigo>().Atacar();
-                
+                animador.SetTrigger("atacando");
+
             }
         }        
         rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad);
@@ -91,5 +115,6 @@ public class MovimientoEnemigo : MonoBehaviour
     {
         viendoDerecha = !viendoDerecha;
         transform.eulerAngles = new Vector3(0,transform.eulerAngles.y + 180, 0);
+        
     }
 }

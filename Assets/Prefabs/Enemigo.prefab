@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 725120783003634182}
   - component: {fileID: 725120783003634183}
   - component: {fileID: 725120783003634178}
-  - component: {fileID: 725120783003634179}
   - component: {fileID: 725120783003634176}
   - component: {fileID: 725120783003634189}
+  - component: {fileID: 725120783003634179}
   - component: {fileID: 725120783003634188}
   m_Layer: 0
   m_Name: Enemigo
@@ -136,21 +136,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &725120783003634179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725120783003634180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b711774faa1cfab4c935bf3b14ba340a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  golpe: {fileID: 725120783170874478}
-  tiempoDeAtaque: 2
-  tiempoEntreAtaque: 5
 --- !u!114 &725120783003634176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +161,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 2
+--- !u!114 &725120783003634179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725120783003634180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b711774faa1cfab4c935bf3b14ba340a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  golpe: {fileID: 725120783170874478}
+  tiempoDeAtaque: 2
+  tiempoEntreAtaque: 5
 --- !u!114 &725120783003634188
 MonoBehaviour:
   m_ObjectHideFlags: 0
