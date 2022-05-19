@@ -4,18 +4,25 @@ using UnityEngine;
 
 public class AtaqueCercano : MonoBehaviour
 {
+    [SerializeField] private float tiempoEntreDaño;
+
+    private float tiempoSiguienteDaño;
+
     public int daño;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.TryGetComponent(out Salud e))
+        Debug.Log(tiempoSiguienteDaño);
+        if (other.CompareTag("Player"))
         {
-            Atacar(e);
-        }
-    }
+            tiempoSiguienteDaño -= Time.deltaTime;
 
-    public void Atacar(Salud s)
-    {
-        s.vida -= daño;
-    }
+            if (tiempoSiguienteDaño <= 0)
+            {
+                Debug.Log("ATACADO");
+                other.GetComponent<Salud>().BajarVida(daño);
+                tiempoSiguienteDaño = tiempoEntreDaño;
+            }
+        }
+    }     
 }
