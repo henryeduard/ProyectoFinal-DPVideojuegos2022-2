@@ -7,11 +7,14 @@ public class Salud : MonoBehaviour
     public int vida;
     [SerializeField] private int vidaMaxima;
 
-    [SerializeField] public BarraDeVida barraDeVida;
-   
+    private GameObject controladorVida;
+    private BarraDeVida barraDeVida;
     
     void Start()
     {
+        controladorVida = GameObject.Find("BarraDeVida");
+        barraDeVida = controladorVida.GetComponent<BarraDeVida>();
+
         vida = vidaMaxima;
         barraDeVida.IniciaBarraVida(vida);
     }
