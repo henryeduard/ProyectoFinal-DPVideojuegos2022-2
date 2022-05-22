@@ -283,7 +283,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1946781105}
         m_TargetAssemblyTypeName: ManejadorEscenas, Assembly-CSharp
-        m_MethodName: Nivel_1
+        m_MethodName: SeleccionPersonaje
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

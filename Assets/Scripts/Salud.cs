@@ -9,19 +9,13 @@ public class Salud : MonoBehaviour
 
     [SerializeField] public BarraDeVida barraDeVida;
    
-    // Start is called before the first frame update
+    
     void Start()
     {
         vida = vidaMaxima;
         barraDeVida.IniciaBarraVida(vida);
     }
 
-    //// Update is called once per frame
-    //void Update()
-    //{
-    //    if (vida <= 0)
-    //        Destroy(gameObject);
-    //}
 
     // Disminuye la vida.
     public void BajarVida(int daño) {

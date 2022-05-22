@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 0
   vidaMaxima: 4
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 6026271304459333331, guid: 89268f2bbb9a33c4092438d5cc0c0c4c, type: 3}
 --- !u!114 &8661284162921896065
 MonoBehaviour:
   m_ObjectHideFlags: 0
