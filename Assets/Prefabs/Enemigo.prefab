@@ -125,7 +125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &725120783003634177
 Transform:
   m_ObjectHideFlags: 0
@@ -206,7 +206,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.20886362}
+  m_Offset: {x: 0, y: -0.28456673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -217,7 +217,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.58227277}
+  m_Size: {x: 1, y: 0.43086654}
   m_EdgeRadius: 0
 --- !u!50 &725120783003634178
 Rigidbody2D:
@@ -294,9 +294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jugadores: []
-  radioAtaqueX: 2.5
-  radioAtaqueY: 0.4
-  velocidad: 3
+  radioAtaqueX: 2.3
+  radioAtaqueY: 1
+  velocidad: 1.2
   animador: {fileID: 818711442}
   sprender: {fileID: 818711443}
 --- !u!114 &2006470772
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8057ae64a91e02a4dbf7b068a57a5be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 4
+  vidaMaxima: 5
   vida: 0
 --- !u!1 &725120783170874478
 GameObject:
