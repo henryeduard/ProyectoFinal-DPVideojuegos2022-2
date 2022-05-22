@@ -11,8 +11,7 @@ public class GolpeJugador : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Enemigo")){
-            other.gameObject.GetComponent<Salud>().BajarVida(daño);
-
+            other.gameObject.GetComponent<SaludEnemigo>().BajarVida(daño);
         }
     }
 }

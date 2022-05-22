@@ -8,34 +8,26 @@ public class BarraDeVida : MonoBehaviour
     private Slider slider;
     private Animator animator;
     
-    void Start()
-    {
-        slider = GetComponent<Slider>();
-        animator = GetComponent<Animator>();
-    }
 
-
-    public void CambiaVidaMaxima(int vidaMaxima)
+    public void CambiaVidaMaxima(float vidaMaxima)
     {
         slider.maxValue = vidaMaxima;
     }
 
-    public void CambiaVidaActual(int cantidadVida) 
+    public void CambiaVidaActual(float cantidadVida) 
     {
         slider.value = cantidadVida;
         animator.SetTrigger("Golpe");
     }
 
-    public void IniciaBarraVida(int cantidadVida)
+    public void IniciaBarraVida(float cantidadVida)
     {
+        slider = GetComponent<Slider>();
+        animator = GetComponent<Animator>();
+
         CambiaVidaMaxima(cantidadVida);
         CambiaVidaActual(cantidadVida);
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
