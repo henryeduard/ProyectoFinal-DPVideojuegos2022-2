@@ -7,7 +7,7 @@ public class Salud : MonoBehaviour
     public int vida;
     [SerializeField] private int vidaMaxima;
 
-    [SerializeField] private BarraDeVida barraDeVida;
+    [SerializeField] public BarraDeVida barraDeVida;
    
     // Start is called before the first frame update
     void Start()
