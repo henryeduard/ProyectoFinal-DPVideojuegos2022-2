@@ -9,11 +9,15 @@ public class Salud : MonoBehaviour
 
     private GameObject controladorVida;
     private BarraDeVida barraDeVida;
+    public GameObject controladorEscena;
+
     
     void Start()
     {
         controladorVida = GameObject.Find("BarraDeVida");
         barraDeVida = controladorVida.GetComponent<BarraDeVida>();
+
+        controladorEscena = GameObject.FindWithTag("GameController");
 
         vida = vidaMaxima;
         barraDeVida.IniciaBarraVida(vida);
@@ -26,7 +30,10 @@ public class Salud : MonoBehaviour
         barraDeVida.CambiaVidaActual(vida);
         if (vida <= 0) {
             Destroy(gameObject);
-            Time.timeScale = 0;
+
+            controladorEscena.GetComponent<ManejadorEscenas>().PantallaInicio();
+            
+            //Time.timeScale = 0;
         }
     }
 }

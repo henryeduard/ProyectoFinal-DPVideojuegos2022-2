@@ -72,13 +72,12 @@ public class MovimientoJugador : MonoBehaviour
         {
             movY = speed;
 
-         animador.SetBool("caminando", true);
+            animador.SetBool("caminando", true);
 
         }
         if (Input.GetKey(KeyCode.S))      // Abajo
         {
             movY = -speed;
-
             animador.SetBool("caminando", true);
 
         } 
