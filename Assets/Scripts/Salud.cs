@@ -24,7 +24,9 @@ public class Salud : MonoBehaviour
     public void BajarVida(int daño) {
         vida = vida - daño;
         barraDeVida.CambiaVidaActual(vida);
-        if (vida <= 0)
+        if (vida <= 0) {
             Destroy(gameObject);
+            Time.timeScale = 0;
+        }
     }
 }
