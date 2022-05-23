@@ -28,7 +28,7 @@ public class Proyectil : MonoBehaviour
         if(other.CompareTag("Pared")){
             Destroy(gameObject);
         } else if(other.CompareTag("Enemigo")){
-            other.gameObject.GetComponent<Salud>().BajarVida(daño);
+            other.gameObject.GetComponent<SaludEnemigo>().BajarVida(daño);
             Destroy(gameObject);
         }
     }
