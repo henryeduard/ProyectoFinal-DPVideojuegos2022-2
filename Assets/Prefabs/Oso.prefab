@@ -162,7 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 0
-  vidaMaxima: 4
+  vidaMaxima: 15
+  controladorEscena: {fileID: 0}
 --- !u!114 &8661284162921896065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,8 +194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animador: {fileID: 8661284163156402325}
   golpe: {fileID: 8661284163981632503}
-  tiempoDeAtaque: 2
-  tiempoEntreAtaque: 1
+  tiempoDeAtaque: 1
+  tiempoEntreAtaque: 0.5
 --- !u!1 &8661284163156402326
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8661284163981632503}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
