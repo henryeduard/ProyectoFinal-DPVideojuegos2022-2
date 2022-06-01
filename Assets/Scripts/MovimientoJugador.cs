@@ -22,7 +22,8 @@ public class MovimientoJugador : MonoBehaviour
     // Zona de golpe del jugador
     [SerializeField]
     private Transform golpeador;
-
+    
+    [SerializeField] private GameObject interfaz;
 
     private float movX;
     private float movY;
@@ -34,6 +35,8 @@ public class MovimientoJugador : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         //animador = gameObject.GetComponent<Animator>();
         //sprender = gameObject.GetComponent<SpriteRenderer>();
+
+        interfaz = GameObject.FindWithTag("Interfaz");
 
     }
 
@@ -81,6 +84,11 @@ public class MovimientoJugador : MonoBehaviour
             animador.SetBool("caminando", true);
 
         } 
+        if (Input.GetKey(KeyCode.P))      // Pausa
+        {
+            interfaz.gameObject.GetComponent<Menu>().Pausa();
+
+        }
 
         rb.velocity = new Vector2(movX, movY);
     }

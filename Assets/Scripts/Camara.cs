@@ -25,7 +25,7 @@ public class Camara : MonoBehaviour
         if (jugador == null) {
             jugador = GameObject.FindWithTag("Player");
             jugadorT = jugador.transform;
-            Debug.Log("HOLA");
+            //Debug.Log("HOLA");
         }
 
         this.transform.position = new Vector3(jugadorT.position.x, this.transform.position.y , this.transform.position.z);
