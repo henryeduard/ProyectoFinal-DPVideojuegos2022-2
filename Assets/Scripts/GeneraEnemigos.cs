@@ -18,12 +18,13 @@ public class GeneraEnemigos : MonoBehaviour
         StartCoroutine(GeneraEnemigo());
     }
 
-    // Corrutina que genera un nuevo enemigo cada tiempo de espera
+    // Corrutina que genera un nuevo enemigo cada tiempo de espera.
+    // Usamos un random para que los enemigos se generen a distintas "alturas" en el rango [-2,-4]
     public IEnumerator GeneraEnemigo() {
         while(true) {
             // Esperamos el tiempo de espera 
             yield return new WaitForSeconds(tiempoEspera);
-            Instantiate(enemigo, this.transform.position, this.transform.rotation);
+            Instantiate(enemigo, this.transform.position + new Vector3(0,  Random.Range(-1.0f, 1.0f), 0), this.transform.rotation);
         }
     }
 
