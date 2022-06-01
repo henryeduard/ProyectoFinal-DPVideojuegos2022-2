@@ -23,6 +23,8 @@ public class AtaqueJugador : MonoBehaviour
     // Variable para ver si el jugador puede atacar o tiene que esperar
     private bool puedeAtacar = true;
 
+    [SerializeField] private ManejadorSonidos manejadorSonidos;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class AtaqueJugador : MonoBehaviour
         //animador = gameObject.GetComponent<Animator>();
 
         golpe.SetActive(false);
+        manejadorSonidos = FindObjectOfType<ManejadorSonidos>();
     }
 
 
@@ -46,6 +49,7 @@ public class AtaqueJugador : MonoBehaviour
     private void Atacar()
     {
         animador.SetTrigger("atacando");
+        manejadorSonidos.SeleccionaAudio(3, 0.5f);
 
         StartCoroutine("duracionAtaque");
         StartCoroutine("tiempoEntreAtaques");

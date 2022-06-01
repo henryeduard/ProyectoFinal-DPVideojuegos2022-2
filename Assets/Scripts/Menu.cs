@@ -18,14 +18,13 @@ public class Menu : MonoBehaviour
 
         //barraDeVida.SetActive(false);
         menuPausa.SetActive(true);
-        Debug.Log("JJJJJJJJJJJJJ");
+
     }
 
     // Quita la pausa del juego
     public void Continuar() {
         Time.timeScale = 1.0f;
 
-        Debug.Log("sssssssss");
         menuPausa.SetActive(false);
         menuVictoria.SetActive(false);
         //barraDeVida.SetActive(true);

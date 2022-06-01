@@ -11,6 +11,8 @@ public class Salud : MonoBehaviour
     private BarraDeVida barraDeVida;
     public GameObject controladorEscena;
 
+    [SerializeField] private ManejadorSonidos manejadorSonidos;
+
     
     void Start()
     {
@@ -21,6 +23,8 @@ public class Salud : MonoBehaviour
 
         vida = vidaMaxima;
         barraDeVida.IniciaBarraVida(vida);
+
+        manejadorSonidos = FindObjectOfType<ManejadorSonidos>();
     }
 
 
@@ -30,10 +34,12 @@ public class Salud : MonoBehaviour
         barraDeVida.CambiaVidaActual(vida);
         if (vida <= 0) {
             Destroy(gameObject);
+            manejadorSonidos.SeleccionaAudio(4, 0.5f);
 
             controladorEscena.GetComponent<ManejadorEscenas>().PantallaInicio();
             
             //Time.timeScale = 0;
         }
+        manejadorSonidos.SeleccionaAudio(1, 0.5f);
     }
 }

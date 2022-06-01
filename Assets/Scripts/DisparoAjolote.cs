@@ -16,12 +16,14 @@ public class DisparoAjolote : MonoBehaviour
     [SerializeField]
     private GameObject bala;
 
+    [SerializeField] private ManejadorSonidos manejadorSonidos;
+
 
     // Start is called before the first frame update
     void Start()
     {
         //animador = gameObject.GetComponent<Animator>();
-        
+        manejadorSonidos = FindObjectOfType<ManejadorSonidos>();
     }
 
     // Update is called once per frame
@@ -36,6 +38,7 @@ public class DisparoAjolote : MonoBehaviour
     private void Disparar()
     {
         animador.SetTrigger("disparando");
+        manejadorSonidos.SeleccionaAudio(2, 0.5f);
         Instantiate(bala, disparador.position, disparador.rotation);
         
     }
