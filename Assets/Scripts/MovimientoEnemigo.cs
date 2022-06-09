@@ -120,6 +120,5 @@ public class MovimientoEnemigo : MonoBehaviour
     {
         viendoDerecha = !viendoDerecha;
         transform.eulerAngles = new Vector3(0,transform.eulerAngles.y + 180, 0);
-        
     }
 }

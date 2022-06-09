@@ -55,9 +55,13 @@ public class MovimientoJugador : MonoBehaviour
         
             animador.SetBool("caminando", true);
             sprender.flipX = true;
-                        
-            golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
-            
+
+            //Debe rotar respecto al padre
+            //golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
+
+            //golpeador.transform.position.Scale(Vector3.left);
+            golpeador.transform.localPosition = golpeador.transform.localPosition * -1;
+
         } 
         if (Input.GetKey(KeyCode.D))     // Derecha
         {
@@ -67,8 +71,9 @@ public class MovimientoJugador : MonoBehaviour
             animador.SetBool("caminando", true);
             sprender.flipX = false;
 
-            golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
-            
+            //golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
+            //golpeador.transform.position.Scale(Vector3.right);
+            golpeador.transform.localPosition = golpeador.transform.localPosition * -1;
 
         } 
         if (Input.GetKey(KeyCode.W))     // Arriba
