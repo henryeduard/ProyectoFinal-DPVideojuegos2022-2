@@ -268,9 +268,9 @@ TextureImporter:
       name: Piso_7
       rect:
         serializedVersion: 2
-        x: 216
+        x: 217
         y: 0
-        width: 178
+        width: 177
         height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
