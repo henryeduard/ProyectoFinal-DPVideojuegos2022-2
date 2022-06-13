@@ -28,6 +28,8 @@ public class MovimientoJugador : MonoBehaviour
     private float movX;
     private float movY;
 
+    private bool viendoDerecha;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,8 @@ public class MovimientoJugador : MonoBehaviour
         //sprender = gameObject.GetComponent<SpriteRenderer>();
 
         interfaz = GameObject.FindWithTag("Interfaz");
+
+        viendoDerecha = true;
 
     }
 
@@ -54,13 +58,17 @@ public class MovimientoJugador : MonoBehaviour
             movX = -speed;
         
             animador.SetBool("caminando", true);
-            sprender.flipX = true;
+            //sprender.flipX = true;
 
             //Debe rotar respecto al padre
             //golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
 
             //golpeador.transform.position.Scale(Vector3.left);
-            golpeador.transform.localPosition = golpeador.transform.localPosition * -1;
+            //golpeador.transform.localPosition = golpeador.transform.localPosition * -1;
+            if(viendoDerecha) {
+                transform.eulerAngles = new Vector3(0,transform.eulerAngles.y + 180, 0);
+                viendoDerecha = false;
+            }
 
         } 
         if (Input.GetKey(KeyCode.D))     // Derecha
@@ -69,11 +77,15 @@ public class MovimientoJugador : MonoBehaviour
 
             
             animador.SetBool("caminando", true);
-            sprender.flipX = false;
+            //sprender.flipX = false;
 
             //golpeador.eulerAngles = new Vector3(0, transform.eulerAngles.y + 360, 0);
             //golpeador.transform.position.Scale(Vector3.right);
-            golpeador.transform.localPosition = golpeador.transform.localPosition * -1;
+            //golpeador.transform.localPosition = golpeador.transform.localPosition * -1;
+            if(!viendoDerecha) {
+                transform.eulerAngles = new Vector3(0,transform.eulerAngles.y + 180, 0);
+                viendoDerecha = true;
+            }
 
         } 
         if (Input.GetKey(KeyCode.W))     // Arriba

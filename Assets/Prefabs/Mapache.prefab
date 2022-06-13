@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 0
-  vidaMaxima: 8
+  vidaMaxima: 120
   controladorEscena: {fileID: 0}
   manejadorSonidos: {fileID: 0}
   render: {fileID: 0}
@@ -300,7 +300,7 @@ MonoBehaviour:
   animador: {fileID: 3322673123654484900}
   golpe: {fileID: 3322673125534384464}
   tiempoDeAtaque: 1
-  tiempoEntreAtaque: 0.5
+  tiempoEntreAtaque: 0.2
   manejadorSonidos: {fileID: 0}
 --- !u!1 &3322673125534384464
 GameObject:

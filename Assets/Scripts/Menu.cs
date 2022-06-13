@@ -38,6 +38,13 @@ public class Menu : MonoBehaviour
         menuVictoria.SetActive(true);
     }
 
+    // Manda al segundo nivel
+    public void irSegundoNivel() {
+        Time.timeScale = 1.0f;
+
+        SceneManager.LoadScene("Nivel_2");
+    }
+
     // Manda al menú principal
     public void irMenu() {
         Time.timeScale = 1.0f;
