@@ -21,6 +21,8 @@ public class MovimientoEnemigo : MonoBehaviour
     private bool viendoDerecha = false;
     private bool puedeAtacar = true;
 
+    private Vector3 desfase = new Vector3(0, 0.3f, 0);
+
     Rigidbody2D rb;
 
     // Animator del jugador
@@ -37,7 +39,7 @@ public class MovimientoEnemigo : MonoBehaviour
     {
         jugadores = GameObject.FindGameObjectsWithTag("Player");
         distAlObjetivoX = Mathf.Abs(jugadores[0].transform.position.x - transform.position.x);
-        distAlObjetivoY = Mathf.Abs(jugadores[0].transform.position.y - transform.position.y);
+        distAlObjetivoY = Mathf.Abs(jugadores[0].transform.position.y - transform.position.y + desfase.y);
         rb = GetComponent<Rigidbody2D>();
         sprender.flipX = true;
         
@@ -49,7 +51,7 @@ public class MovimientoEnemigo : MonoBehaviour
     {
 
         distAlObjetivoX = Mathf.Abs(jugadores[0].transform.position.x - transform.position.x);
-        distAlObjetivoY = Mathf.Abs(jugadores[0].transform.position.y - transform.position.y);
+        distAlObjetivoY = Mathf.Abs(jugadores[0].transform.position.y - transform.position.y+desfase.y);
 
         //Si no esta a radio de ataque, muevete e intenta igualar la posicion.
         if (distAlObjetivoX > radioAtaqueX)
@@ -69,8 +71,8 @@ public class MovimientoEnemigo : MonoBehaviour
 
         if (distAlObjetivoY > radioAtaqueY)
         {
-            if (jugadores[0].transform.position.y > transform.position.y) direccionY = 1;
-            if (jugadores[0].transform.position.y <= transform.position.y) direccionY = -1;
+            if (jugadores[0].transform.position.y > transform.position.y + desfase.y) direccionY = 1;
+            if (jugadores[0].transform.position.y <= transform.position.y + desfase.y) direccionY = -1;
 
             //animador.SetBool("caminando", true);
             animador.SetBool("caminando", false);
@@ -105,16 +107,18 @@ public class MovimientoEnemigo : MonoBehaviour
             {
                 gameObject.GetComponent<GolpeEnemigo>().Atacar();
                 animador.SetTrigger("atacando");
-
             }
         }        
-        rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad*0.5f);
+        rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad);
+
+        Vector3 desfaseY = new Vector3(0,-0.5f,0);
+        Debug.DrawRay((transform.position + desfase), Vector2.down * (radioAtaqueY), Color.red);
+        Debug.DrawRay((transform.position + desfase), Vector2.up * (radioAtaqueY), Color.blue);
     }
 
     private void girar()
     {
         viendoDerecha = !viendoDerecha;
         transform.eulerAngles = new Vector3(0,transform.eulerAngles.y + 180, 0);
-        
     }
 }

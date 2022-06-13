@@ -13,9 +13,11 @@ public class Salud : MonoBehaviour
 
     [SerializeField] private ManejadorSonidos manejadorSonidos;
 
-    
+    //Ocupado para hacer parpadear el sprite al recibir daño.
+    public GameObject render;
     void Start()
     {
+        //Control de la barra de vida
         controladorVida = GameObject.Find("BarraDeVida");
         barraDeVida = controladorVida.GetComponent<BarraDeVida>();
 
@@ -25,27 +27,43 @@ public class Salud : MonoBehaviour
         barraDeVida.IniciaBarraVida(vida);
 
         manejadorSonidos = FindObjectOfType<ManejadorSonidos>();
-    }
 
+        render = transform.GetChild(1).gameObject;
+    }
+    
 
     // Disminuye la vida.
     public void BajarVida(int daño) {
         vida = vida - daño;
         barraDeVida.CambiaVidaActual(vida);
         if (vida <= 0) {
-            StartCoroutine(EsperaTiempo(0.8f));
+            Destroy(gameObject);
+            manejadorSonidos.SeleccionaAudio(4, 0.5f);
 
-            //Time.timeScale = 0;
+            controladorEscena.GetComponent<ManejadorEscenas>().PantallaInicio();
         }
+
         manejadorSonidos.SeleccionaAudio(1, 0.5f);
+        StartCoroutine(ParpadeoObjeto());
     }
 
-    // Corrutina para detener un momento el método que lo llame
-    IEnumerator EsperaTiempo(float tiempo) {
-        manejadorSonidos.SeleccionaAudio(4, 0.5f);
-        yield return new WaitForSeconds(tiempo);
-        Destroy(gameObject);
-        controladorEscena.GetComponent<ManejadorEscenas>().PantallaInicio();
 
+    IEnumerator ParpadeoObjeto()
+    {
+        Color color;
+        for (float value = 0f; value <= 3; value++)
+        {
+            color = render.GetComponent<Renderer>().material.color;
+            if (value % 2 == 0)
+            {
+                color.a = 0.5f;
+            }
+            else
+            {
+                color.a = 1f;
+            }
+            render.GetComponent<Renderer>().material.color = color;
+            yield return new WaitForSeconds(0.08f);
+        }
     }
 }

@@ -25,11 +25,19 @@ public class AtaqueJugador : MonoBehaviour
 
     [SerializeField] private ManejadorSonidos manejadorSonidos;
 
+    //Barra de energia (Señalara cuando se puede golpear)
+    private GameObject controladorEnergia;
+    private BarraDeEnergia barraEnergia;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         //animador = gameObject.GetComponent<Animator>();
+
+        //Manejo Energia
+        controladorEnergia = GameObject.Find("BarraDeEnergia");
+        barraEnergia = controladorEnergia.GetComponent<BarraDeEnergia>();
+        barraEnergia.IniciaBarraEnergia(tiempoDeAtaque + tiempoEntreAtaque);
 
         golpe.SetActive(false);
         manejadorSonidos = FindObjectOfType<ManejadorSonidos>();
@@ -41,6 +49,7 @@ public class AtaqueJugador : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && puedeAtacar) {
             Atacar();
+            barraEnergia.GolpeRecarga();
         }
     }
 

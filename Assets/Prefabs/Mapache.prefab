@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1.6326187, y: 1.1208537, z: 2.0749}
   m_Children: []
   m_Father: {fileID: 3322673124275431195}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3322673123654484827
 SpriteRenderer:
@@ -136,8 +136,8 @@ Transform:
   m_LocalPosition: {x: -7.079955, y: -3.0521479, z: 0}
   m_LocalScale: {x: 1.270903, y: 1.8511783, z: 1}
   m_Children:
-  - {fileID: 3322673123654484826}
   - {fileID: 3322673125534384469}
+  - {fileID: 3322673123654484826}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -267,6 +267,7 @@ MonoBehaviour:
   vidaMaxima: 8
   controladorEscena: {fileID: 0}
   manejadorSonidos: {fileID: 0}
+  render: {fileID: 0}
 --- !u!114 &3322673124275431265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animador: {fileID: 3322673123654484900}
   golpe: {fileID: 3322673125534384464}
-  tiempoDeAtaque: 0.5
+  tiempoDeAtaque: 1
   tiempoEntreAtaque: 0.5
   manejadorSonidos: {fileID: 0}
 --- !u!1 &3322673125534384464
@@ -314,6 +315,7 @@ GameObject:
   - component: {fileID: 3439448340072245503}
   - component: {fileID: 3322673125534384471}
   - component: {fileID: 5762780758013458856}
+  - component: {fileID: 5999954259269257861}
   m_Layer: 0
   m_Name: Golpe
   m_TagString: Untagged
@@ -329,11 +331,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3322673125534384464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.79000014, y: -0.07999995, z: 0}
-  m_LocalScale: {x: 0.63052803, y: 0.43288106, z: 0.80134}
+  m_LocalPosition: {x: 0.901, y: -0.225, z: 0}
+  m_LocalScale: {x: 0.76558715, y: 0.4388923, z: 0.80134}
   m_Children: []
   m_Father: {fileID: 3322673124275431195}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3322673125534384470
 SpriteRenderer:
@@ -342,7 +344,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3322673125534384464}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -446,3 +448,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "da\xF1o": 2
+--- !u!95 &5999954259269257861
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3322673125534384464}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a3f63e6e2099bd4c86f7d029032c634, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
