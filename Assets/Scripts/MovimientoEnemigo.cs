@@ -108,7 +108,7 @@ public class MovimientoEnemigo : MonoBehaviour
 
             }
         }        
-        rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad);
+        rb.velocity = new Vector2(direccionX*velocidad, direccionY*velocidad*0.5f);
     }
 
     private void girar()

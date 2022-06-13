@@ -265,6 +265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaMaxima: 3
   vida: 0
+  manejadorSonidos: {fileID: 0}
 --- !u!114 &725120783003634179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jugadores: []
-  radioAtaqueX: 2.3
+  radioAtaqueX: 2
   radioAtaqueY: 1
   velocidad: 2
   animador: {fileID: 818711442}

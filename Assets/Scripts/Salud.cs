@@ -33,13 +33,19 @@ public class Salud : MonoBehaviour
         vida = vida - daño;
         barraDeVida.CambiaVidaActual(vida);
         if (vida <= 0) {
-            Destroy(gameObject);
-            manejadorSonidos.SeleccionaAudio(4, 0.5f);
+            StartCoroutine(EsperaTiempo(0.8f));
 
-            controladorEscena.GetComponent<ManejadorEscenas>().PantallaInicio();
-            
             //Time.timeScale = 0;
         }
         manejadorSonidos.SeleccionaAudio(1, 0.5f);
+    }
+
+    // Corrutina para detener un momento el método que lo llame
+    IEnumerator EsperaTiempo(float tiempo) {
+        manejadorSonidos.SeleccionaAudio(4, 0.5f);
+        yield return new WaitForSeconds(tiempo);
+        Destroy(gameObject);
+        controladorEscena.GetComponent<ManejadorEscenas>().PantallaInicio();
+
     }
 }
