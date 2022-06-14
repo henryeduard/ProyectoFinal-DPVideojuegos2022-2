@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 0
-  vidaMaxima: 120
+  vidaMaxima: 12
   controladorEscena: {fileID: 0}
   manejadorSonidos: {fileID: 0}
   render: {fileID: 0}
